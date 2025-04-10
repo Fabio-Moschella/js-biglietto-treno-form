@@ -13,25 +13,27 @@
     <title>JS Fundamentals</title>
   </head>
   <body>
-    <div>
-      <label for="exampleInput" class="form-label">Nome Cognome</label>
-      <input type="text" id="nameinput" />
-      <label for="exampleInput" class="form-label">km da percorrere</label>
-      <input type="text" id="kminput" />
-      <select
-        id="ageuser"
-        class="form-select"
-        aria-label="Default select example"
-      >
-        <option selected>eta` utente</option>
-        <option id="etamaggioredi18" value="1">maggiorenne</option>
-        <option id="etaminoredi18" value="2">minorenne</option>
-        <option id="etaover65" value="3">over65</option>
-      </select>
-    </div>
-    <div>
-      <button id="generatebutton">Genera</button>
-    </div>
+    <form id="registereduserform">
+      <div>
+        <label for="exampleInput" class="form-label">Nome Cognome</label>
+        <input type="text" id="nameinput" />
+        <label for="exampleInput" class="form-label">km da percorrere</label>
+        <input type="text" id="kminput" />
+        <select
+          id="ageuser"
+          class="form-select"
+          aria-label="Default select example"
+        >
+          <option selected>eta` utente</option>
+          <option id="etamaggioredi18" value="1">maggiorenne</option>
+          <option id="etaminoredi18" value="2">minorenne</option>
+          <option id="etaover65" value="3">over65</option>
+        </select>
+      </div>
+      <div>
+        <button id="generatebutton">Genera</button>
+      </div>
+    </form>
 
     <script src="./main.js"></script>
   </body>
